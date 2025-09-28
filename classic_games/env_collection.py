@@ -10,11 +10,6 @@ from ple.games.pixelcopter import Pixelcopter
 from ple.games.pong import Pong
 from ple.games.snake import Snake
 
-def env_raw():
-     env = FlappyBird()
-     ple_env = PLE(env, fps=30, display_screen=True)
-     return ple_env
-
 def env_raw_flappybird():
      env = FlappyBird()
      ple_env = PLE(env, fps=30, display_screen=True)
@@ -36,7 +31,9 @@ def env_raw_pong():
      return ple_env
 
 def env_raw_snake():
-     env = Snake()
+     env = Snake(
+
+     )
      ple_env = PLE(env, fps=30, display_screen=True)
      return ple_env
 

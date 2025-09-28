@@ -1,0 +1,1 @@
+ffmpeg -i snake_master_growing_longer.mp4 -i snake_master_growing_longer_audio.mp3 -c:v libx264 -preset fast -crf 20 -c:a aac -b:a 128k -movflags +faststart snake_master_growing_longer_youtube.mp4
