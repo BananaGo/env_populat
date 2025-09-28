@@ -1,0 +1,1 @@
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/../PyGame-Learning-Environment/"
